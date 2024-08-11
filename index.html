@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardik - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"   />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 34);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(19, 19, 59);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: rgb(100, 100, 225);
+            font-size: 1.05em;
+        }
+
+        main hr {
+            border: 0;
+            height: 1px;
+            background: rgb(178, 178, 222);
+            margin: 40px 80px;
+
+        }
+
+        .left {
+            font-size: 1.5rem;
+
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 90px 0;
+            align-items: center;
+        }
+
+        .firstSection>div {
+            width: 32%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+        }
+
+        .rightSection img {
+            width: 100%;
+            margin: 0;
+
+        }
+
+        .purple {
+            color: rgb(154, 60, 243);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(154, 60, 243);
+        }
+
+        .SecondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 92vh;
+        }
+
+        .SecondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .SecondSection .box {
+            background: white;
+            width: 74vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+        }
+
+        .SecondSection .vertical {
+            height: 92px;
+            width: 1px;
+            background-color: white;
+            margin: 0 140px;
+
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -27px;
+            left: -8px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 15px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 76px;
+            color: gray;
+            width: 130px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: #10101f;
+            font-size: 20px;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+
+        }
+
+        .footer>div {
+            width: 200px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 10px 0;
+        }
+
+        .project {
+            max-width: 85vw;
+            margin: auto;
+            height: 105vh;
+
+        }
+
+        .projectImage {
+            position: relative;
+
+        }
+
+        .projectDescription {
+            position: relative;
+            top: 40px;
+            color: gray;
+            width: 330px;
+        }
+
+        .projectContent {
+            margin-left: 30px;
+        }
+
+        .purple1 {
+            color: rgb(154, 60, 243);
+        }
+
+        .social-media-icons {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .social-media-icons li {
+            margin: 10px;
+        }
+
+        .social-media-icons a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .social-media-icons a:hover {
+            color: #666;
+        }
+
+        .social-media-icons i {
+            font-size: 24px;
+            margin: 0 10px;
+        }
+
+        .fab {
+            font-family: 'Font Awesome 5 Brands';
+            font-weight: 900;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Hardik's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi, My Name is <span class="purple">Hardik Agrawal</span>
+                <div>and I am a passionate </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png">
+            </div>
+        </section>
+        <hr>
+        <section class="project" style="margin-bottom: 50px;">
+            <h1 class="projectTitle" style="margin-left: 30px; font-size: 2rem;"> Projects</h1>
+            <div class="projectContent" style="display: flex; margin-top: 20px;">
+                <div class="projectCard">
+                    <div class="projectImage">
+                        <img src="P1.png" height="220px" width="350px" style="margin-right: 80px;">
+                    </div>
+                    <div class="projectTitle">Project 1 <div style="color:rgb(154, 60, 243);">(Digital Alarm clock)
+                        </div>
+                    </div>
+                    <div class="projectDescription">The Digital Alarm Clock project aims to design and build a
+                        functional alarm clock that can display the current time, set alarms, and provide various alert
+                        options.
+                    </div>
+                </div>
+                <div class="projectCard" style="margin-right: 80px;">
+                    <div class="projectImage">
+                        <img src="P2.png" height="220px" width="370px" style="object-fit: cover;">
+                    </div>
+                    <div class="projectTitle">Project 2 <div style="color:rgb(154, 60, 243);">(Calculator)</div>
+                    </div>
+                    <div class="projectDescription">The Calculator project involves designing and building a functional
+                        calculator that performs basic arithmetic operations.
+                    </div>
+                </div>
+                <div class="projectCard">
+                    <div class="projectImage">
+                        <img src="P3.jpg" height="220px" width="350px" style="object-fit: cover;">
+                    </div>
+                    <div class="projectTitle">Project 3 <div style="color:rgb(154, 60, 243);">(Weather App)</div>
+                    </div>
+                    <div class="projectDescription">The Weather App project is designed to provide users with real-time
+                        weather information based on their location or any specified city.
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <hr>
+        <section class="SecondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience </h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="pinterest.png" alt="">
+                    <div class="vertical-title">HTML Developer - Pintrest (2010-2012)</div>
+                    <div class="vertical-desc">Pinterest is a visual discovery engine for finding ideas like recipes, home and style inspiration, and more. At Pinterest, we believe in building a platform where creativity thrives and diverse perspectives are celebrated.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="facebook.png" alt="">
+                    <div class="vertical-title">HTML Developer - FB (2012-2014)</div>
+                    <div class="vertical-desc">Facebook is a leading social media platform connecting billions of people around the world. As part of the Meta family, we are committed to building technologies that help people find community and bring the world closer together.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="insta.png" alt="">
+                    <div class="vertical-title">HTML Developer - Insta (2014-2016)</div>
+                    <div class="vertical-desc">Instagram is a platform that brings people closer to the moments and things they love. As part of Meta, we are at the forefront of social media innovation, connecting over a billion users worldwide through visual storytelling.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="twitter.png" alt="">
+                    <div class="vertical-title">HTML Developer - Twitter (2014-2016)</div>
+                    <div class="vertical-desc">Twitter is where people come to connect, discover what's happening in the world, and express themselves in real-time. As a company, we are committed to open dialogue and fostering a sense of community.
+                    </div>
+
+                </div>
+        </section>
+        <footer>
+            <div>
+                <h2 style="text-align: center;">FIND ME ON</h2>
+                <p style="text-align: center;">Feel free to
+                    <span class="purple1">connect</span>
+                    with me
+                </p>
+                <ul class="social-media-icons">
+                    <li>
+                        <a href="https://www.facebook.com/hardik.agrawal.31945?mibextid=ZbWKwL" target="_blank">
+                            <i class="fab fa-facebook-f" style="color: rgb(46, 46, 209);"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://x.com/hardikagrawal22" target="_blank">
+                            <i class="fab fa-twitter" style="color: rgb(7, 177, 245);"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/hardikagrawal_22/" target="_blank">
+                            <i class="fab fa-instagram" style="color: rgb(153, 55, 102);"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://shorturl.at/7AQc3" target="_blank">
+                            <i class="fab fa-linkedin-in" style="color: rgb(40, 74, 195);"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-rights" style="text-align: center;">
+                Copyright &#169; hardiksportfolio.com | All rights reserved
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
